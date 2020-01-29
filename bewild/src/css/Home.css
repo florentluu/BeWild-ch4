@@ -1,0 +1,91 @@
+.ban-Home{
+    display: flex;
+    width: 100%;
+    background-image: url(../pictures/banner-home.jpg);
+    background-size: cover;
+    height: 88vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.ban-button1{
+    display: flex;
+    position: relative;
+    top: 37%;
+    justify-content: center;
+    width: 100%;
+}
+
+.enter-gif{
+    display: flex;
+    width: 9%;
+}
+
+.title-Valeurs{
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 3em;
+    color: white;
+    background-color: black;
+}
+
+.valeurs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.valeurs-legend{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 2%;
+}
+
+.About{
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 3em;
+    color: white;
+    background-color: #ed6c6d;
+    flex-direction: column;
+}
+
+.title-About{
+    display: flex;
+    justify-content: center;
+    font-size: 1em;
+    color: white;
+}
+
+.about-desc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 51%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.logo-about{
+    display: flex;
+    justify-content: center;
+}
+
+.title-Outfits{
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 3em;
+    color: white;
+    background-color: black;
+
+}

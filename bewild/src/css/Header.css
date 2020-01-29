@@ -1,0 +1,49 @@
+.navbar {
+    display: block;
+    width: 100%;
+    padding: 0;
+  }
+  
+  .allHeader {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    z-index: 5;
+    position: fixed;
+  }
+  
+  .instagram {
+    display: flex;
+    height: 22px;
+    width: auto;
+    padding-right: 1%;
+    color: #4b4d53;
+  }
+  
+  .facebook {
+    display: flex;
+    width: auto;
+    height: 25px;
+    color: #4b4d53;
+  }
+  
+  @media screen and (max-width: 640px) {
+  
+    .allHeader {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      margin-top: 0;
+      z-index: 5;
+      position: fixed;
+    }
+
+    .allBurger{
+      display: flex;
+      width:100%;
+    }
+  }
+
+
+  

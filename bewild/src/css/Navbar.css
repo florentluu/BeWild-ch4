@@ -1,0 +1,296 @@
+/* #free-solo-demo {
+  padding-top: 2rem;
+} */
+
+.navbar-background {
+    height: 50px;
+    width: 100%;
+    z-index: 2;
+    background-color: #d6ccb2;
+    position: relative;
+  }
+  
+  .navbar-section {
+    height: 200px;
+    width: 100%;
+  }
+  
+  .MuiSvgIcon-root {
+    color: white;
+  }
+  
+  .all-links {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    padding: 2%;
+  }
+  
+  /* a {
+    text-decoration: none;
+    position: relative;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+  } */
+  
+  a:hover {
+    color: white;
+  }
+  
+  .left {
+    display: flex;
+    width: 25%;
+    text-decoration: none;
+    justify-content: flex-start;
+    position: relative;
+    right: 5em;
+  }
+  
+  .right {
+    display: flex;
+    width: 25%;
+    text-decoration: none;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    left: 6em;
+  }
+  
+  .logo {
+    display: flex;
+    width: 12rem;
+    position: relative;
+    height: 5rem;
+    right: 16%;
+}
+  
+  .search {
+    color: white;
+    position: relative;
+  }
+  
+  .MuiInput-inputTypeSearch,
+  .MuiInput-inputMultiline {
+    color: white;
+  }
+  
+  .news,
+  .coll,
+  .brand,
+  .acc,
+  .ord {
+    display: flex;
+    padding-left: 5%;
+    text-decoration: none;
+    width: 25%;
+    flex-direction: row;
+    color: #ed6c6d;
+    font-size: 1.2em;
+  }
+  
+  .acc {
+    width: 40%;
+    justify-content: space-around;
+  }
+  
+  /* .lala {
+    align-items: stretch;
+  } */
+  
+  .infoUser {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cat1,
+  .cat2,
+  .cat3 {
+    color: white;
+  }
+  
+  .acclogo {
+    width: 1.5em;
+  }
+  
+  .acc:hover {
+    color: grey;
+  }
+  
+  .panierlogo {
+    width: 1.5em;
+  }
+  
+  .paramMenu {
+    color: red;
+  }
+  
+  .burger {
+    display: none;
+  }
+  
+  @media screen and (max-width: 640px) {
+    .burger {
+      display: flex;
+      width: 100%;
+    }
+  
+    .ord {
+      width: 1.5em;
+      position: relative;
+      padding-left: 2em;
+    }
+  
+    .all-links2,
+    .left,
+    .search {
+      display: none;
+    }
+  
+    #page-wrap {
+      text-align: center;
+      overflow: auto;
+    }
+  
+    .bm-item {
+      display: inline-block;
+      justify-content: center;
+      text-decoration: none;
+      margin-bottom: 10px;
+      color: #d1d1d1;
+      transition: color 0.2s;
+      position: relative;
+      left: 1.2em;
+    }
+  
+    .bm-item:hover {
+      color: white;
+    }
+  
+    .bm-burger-button {
+      position: sticky;
+      width: 36px;
+      height: 30px;
+      left: 1em;
+      top: 36px;
+      margin-left: 1em;
+    }
+  
+    .bm-burger-bars {
+      background: #373a47;
+    }
+  
+    .bm-cross-button {
+      height: 24px;
+      width: 24px;
+    }
+  
+    .bm-cross {
+      background: #373a47;
+    }
+  
+    .bm-menu {
+      background: grey;
+      padding: 2.5em 4em 0;
+      font-size: 1.15em;
+      position: relative;
+      height: 100%;
+      bottom: 1.4em;
+    }
+  
+    .bm-morph-shape {
+      fill: #373a47;
+    }
+  
+    .bm-item-list {
+      color: #b8b7ad;
+      width: 100%;
+      display: flex;
+      position: relative;
+      justify-content: center;
+    }
+  
+    .bm-overlay {
+      background: rgba(0, 0, 0, 0.3);
+      top: 0em;
+    }
+  
+    .bm-menu-wrap {
+      position: fixed;
+      right: inherit;
+      z-index: 1100;
+      width: 300px;
+      height: 100%;
+      transition: all 0.5s ease 0s;
+      top: 1.7em;
+    }
+  
+    .logo {
+      display: flex;
+      width: 5rem;
+      position: relative;
+      right: 10em;
+    }
+  
+    .logoBurger {
+      display: flex;
+      width: 4em;
+      position: relative;
+      bottom: 0.9em;
+    }
+  
+    .logoBurger2 {
+      display: flex;
+      width: 4.2em;
+      position: relative;
+      left: 0.5em;
+    }
+  
+    .catBurger {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      /* right: 1.2em; */
+    }
+  
+    .news,
+    .coll,
+    .brand {
+      display: flex;
+      padding: 1em;
+      width: 8em;
+    }
+  
+    .right {
+      display: flex;
+      position: absolute;
+      left: 15em;
+    }
+  
+    .MuiSvgIcon-root {
+      display: flex;
+      color: white;
+      width: 100%;
+    }
+  
+    .MuiInputBase-root {
+      width: 100%;
+      font-size: 0.8em;
+    }
+  
+    .MuiToolbar-root {
+      display: flex;
+      right: 0.7em;
+    }
+  
+    .all-links {
+      top: 3.8%;
+    }
+    
+    .allBurger{
+      display: flex;
+    }
+  }
+  
