@@ -1,8 +1,12 @@
 import React, { Component }  from 'react';
-import { Route, BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
+import Contact from './pages/Contact';
+import Music from './pages/Music';
+import Fashion from './pages/Fashion';
+import AllWilders from './pages/AllWilders';
 
 
 function App() {
@@ -11,10 +15,11 @@ function App() {
     <div>
       <BrowserRouter>
       <Header /> 
-      <Home />
-      <Route exact path="/" />
-      <Route path="/product/" />
-
+      <Route exact path="/" component={Home}/>
+      <Route path="/contact/" component={Contact} />
+      <Route path="/music/" component={Music} />
+      <Route path="/fashion/" component={Fashion} />
+      <Route path="/artists/" component={AllWilders} />
       <Footer /> 
       </BrowserRouter>
     </div>

@@ -1,3 +1,14 @@
+.logo-outfit{
+    display: flex;
+    justify-content: center;
+}
+
+.sWild{
+    display: flex;
+    width: 20%;
+    padding-top: 3%;
+}
+
 .carousel-status{
     display: none;
 }
@@ -7,6 +18,7 @@
     width: 100%;
     justify-content: center;
     padding-top: 3%;
+    background-image: url(../pictures/wallpaper-white.jpg);
 }
 
 .allCarousel{
@@ -15,7 +27,7 @@
 
 .allCar{
     display: flex;
-    width: 50%;
+    width: 35%;
     flex-direction: row;
 }
 

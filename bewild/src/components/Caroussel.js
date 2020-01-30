@@ -6,31 +6,27 @@ export default () => (
   <div className="allCar">
   <Carousel autoPlay>
     <div className= "pic1">
-      <img src="https://image.noelshack.com/fichiers/2020/05/3/1580322514-femme.jpg" />
+      <img src="https://image.noelshack.com/fichiers/2020/05/4/1580389486-seven.png" />
       <p className="legend">Legend 1</p>
     </div>
     <div className= "pic2">
-      <img src="https://image.noelshack.com/fichiers/2020/05/3/1580322514-homme.jpg" />
+      <img src="https://image.noelshack.com/fichiers/2020/05/4/1580389487-fuencore.jpg" />
       <p className="legend">Legend 2</p>
     </div>
     <div className= "pic3">
-      <img src="https://image.noelshack.com/fichiers/2020/05/3/1580322514-femmehoodie.jpg" />
+      <img src="https://image.noelshack.com/fichiers/2020/05/4/1580389486-seven.png" />
       <p className="legend">Legend 3</p>
     </div>
     <div className= "pic4">
-      <img src="https://image.noelshack.com/fichiers/2020/05/3/1580322693-hommehood.jpg" />
+      <img src="https://image.noelshack.com/fichiers/2020/05/4/1580389487-fuencore.jpg" />
       <p className="legend">Legend 1</p>
     </div>
     <div className= "pic5">
-      <img src="https://image.noelshack.com/fichiers/2020/05/3/1580331253-bonnet1.jpg" />
+      <img src="https://image.noelshack.com/fichiers/2020/05/4/1580389486-seven.png" />
       <p className="legend">Legend 1</p>
     </div>
     <div className= "pic6">
-      <img src="https://image.noelshack.com/fichiers/2020/05/3/1580331253-hat1.jpg" />
-      <p className="legend">Legend 1</p>
-    </div>
-    <div className= "pic7">
-      <img src="https://image.noelshack.com/fichiers/2020/05/3/1580331253-totebag.jpg" />
+      <img src="https://image.noelshack.com/fichiers/2020/05/4/1580389487-fuencore.jpg" />
       <p className="legend">Legend 1</p>
     </div>
   </Carousel>

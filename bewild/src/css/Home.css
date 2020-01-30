@@ -1,3 +1,9 @@
+.part-leg{
+    display: flex;
+    left: 3%;
+    position: relative;
+}
+
 .ban-Home{
     display: flex;
     width: 100%;
@@ -44,6 +50,8 @@
     flex-direction: row;
     justify-content: space-around;
     padding-bottom: 2%;
+    position: relative;
+    right: 2%;
 }
 
 .About{

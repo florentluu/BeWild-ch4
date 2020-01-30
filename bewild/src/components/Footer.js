@@ -17,20 +17,16 @@ function Footer() {
       <div className="footer">
         <div className="footer-box">
           <ul>
-            <li className="footer-title">SERVICES</li>
+            <li className="footer-title">RESEAUX</li>
             <hr />
-            <li>
-              <CheckIcon className="footer-icons-grey" />
-              Satisfait ou remboursé 15 jours
-            </li>
-            <li>
-              <LockIcon className="footer-icons-grey" />
-              Paiement 100% sécurisé
-            </li>
-            <li>
-              <LocalShippingIcon className="footer-icons-grey" />
-              Livraison 2 à 4 jours ouvrés en France
-            </li>
+            
+            <a href="https://www.instagram.com/wildcodeschoolofficial/?hl=fr">
+            <InstagramIcon className="icon-social" style={{ fontSize: 50 }} />
+            </a>
+            <a href="https://www.facebook.com/WildCodeSchool/">
+            <FacebookIcon className="icon-social" style={{ fontSize: 50 }} />
+            </a>
+
           </ul>
         </div>
         <div className="footer-box">

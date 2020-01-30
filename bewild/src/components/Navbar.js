@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../pictures/logo.png';
+import logo from '../pictures/logo2.png';
 import Compte from '../pictures/compte.png';
-import Panier from '../pictures/panier.png';
+import Mail from '../pictures/mail.png';
 import Burger from './Burger';
 
 import '../css/Navbar.css';
@@ -37,12 +37,12 @@ class Navbar extends React.Component {
 
         <div className="left">
           <div className="news">
-            <Link to="/about" className="news">
-              About
+            <Link to="/music" className="news">
+              Music
             </Link>
           </div>
-          <Link to="/leshop" className="brand">
-            Shop
+          <Link to="/fashion" className="brand">
+            Fashion
           </Link>
         </div>
         <Link to="/">
@@ -56,8 +56,8 @@ class Navbar extends React.Component {
             </Link>
           </div>
           <div className="ord">
-              <Link to="/panier">
-                <img className="panierlogo" src={Panier} alt="panier" />
+              <Link to="/contact">
+                <img className="panierlogo" src={Mail} alt="mail" />
               </Link>
           </div>
         </div>

@@ -1,0 +1,17 @@
+.urlMusic{
+    display: flex;
+    width: 50%;
+    margin: 3%;
+}
+
+.artistName{
+    display: flex;
+    flex-direction: row;
+}
+
+.descipt-music{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+
+}

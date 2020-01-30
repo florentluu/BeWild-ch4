@@ -17,7 +17,7 @@ function Home() {
   return (
     <div className="Home">
         <div className="ban-Home">
-            <Link to="/shop" className="ban-button1">
+            <Link to="/artists" className="ban-button1">
             <div className="ban-button1">
                 <img className="enter-gif" src={Enter} alt="gifEnter" /> 
             </div>
@@ -33,22 +33,23 @@ function Home() {
             
         </div>
         <div className="valeurs-legend">
-            <div>ECO</div>
-            <div>UNISEX</div>
-            <div>STAR</div>
+            <div><strong>E P A N O U I S S E M E N T &nbsp; W I L D E R</strong></div>
+            <div ><strong>L E &nbsp; P A R T A G E</strong></div>
+            <div className="part-leg"><strong>D E C O U V E R T E &nbsp; T A L E N T</strong></div>
         </div>
         <div className="About">
             <div className="title-About"> 
                 QUI SOMMES-NOUS ?
             </div>
             <div className="about-desc">
-                WILD CIRCUS SHOP<br/> 
+                WILD CIRCUS ARTIST <br/> 
                 <br/>
-                est un endroit où tu pourras retrouver <br/>
+                est l'endroit où tu pourras retrouver <br/>
                 <br/>
-                les meilleurs goodies et outfits de notre marque <br/>
+                tous les créateurs de la communauté. <br/>
                 <br/>
-                BE WILD.
+                De la musique à la mode, l'imagination n'a aucune limite. <br/>
+                <br/>" STAY WILD "
                 <br/>
             </div>
             <div className="logo-about">
@@ -56,7 +57,7 @@ function Home() {
             </div>
         </div>
         <div className="title-Outfits">
-            O U T F I T S
+            A R T I S T E S
         </div>
         <div className="carouss">
             <Caroussel/>
